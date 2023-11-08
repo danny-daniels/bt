@@ -1,0 +1,171 @@
+Theory:
+Introduction
+Blockchain is a decentralized, distributed public ledger that lets us collaborate and coordinate the members 
+that do not trust each other to make a secure transaction. Many of you understand blockchain as a bitcoin, but 
+bitcoin is a cryptocurrency that takes the help of blockchain technology to operate.
+
+Blockchain Technology
+First, when Windows was launched to create reports and work on any project, we used MS word, where only 
+one person could edit at a time and then send to another, and the process goes on, one after the other method. 
+After some technological evolution, we have seen Google docs, google sheets in the market where online 
+multiple people can work on a single document simultaneously. But the problem here is that it works on 
+centralized architecture where a single server maintains google docs and various nodes are connected. Still, if 
+the significant server crashes or gets corrupt, all the nodes get disconnected, and all the work gets 
+destroyed. So the solution to this is decentralized blockchain technology. Decentralized means that no single 
+server or single node is managing the network. Data is replicated to multiple nodes so that if any node goes 
+down, other nodes operate as it is, and original data can quickly be recovered.
+
+What is Ethereum?
+Ethereum is a decentralized blockchain designed to be highly secure, fault-tolerant, and programmable. 
+Ethereum blockchain is a choice for many developers and businesses. As said programmable, the main task of 
+Ethereum is to securely execute and verify the application code known as smart contracts. Ethereum helps to 
+build native scripting language(solidity) and EVM. Ethereum consensus mechanism is proof of work to 
+operate to verify the new transaction. Now we will learn about smart contracts and how it runs on the 
+Ethereum platform.
+
+Overview of Smart Contracts
+A smart contract is a small program that runs on an Ethereum blockchain. Once the smart contract is deployed 
+on the Ethereum blockchain, it cannot be changed. To deploy the smart contract to Ethereum, you must pay 
+Department of Computer Engineering, SITS, Narhe LP III Lab Manual
+the ether (ETH) cost. Understand it as a digital agreement that builds trust and allows both parties to agree on 
+a particular set of conditions that cannot be tampered with.
+
+Introduction to Solidity Programming
+Solidity is object-oriented, high-level statically-typed programing language used to create smart contracts. 
+Solidity programming looks similar to Javascript, but there are a lot of differences between both languages. In 
+solidity, you need to compile the program first, while in Javascript, you can run the program directly in your 
+browser or by using Node JS. With solidity, you can create contracts for uses such as voting, crowdfunding, 
+blind auctions, and multi-signature wallets. It is also a case-sensitive programming language
+
+What is Remix IDE?
+It is an online IDE for creating solid, smart contracts, so you do not need to install or download anything to do 
+any setup. You can develop, deploy, and Administer your solidity smart contract using Remix IDE. 
+Visit this link to access the Remix IDE where you will find multiple options and a window shown below.
+
+Functions in Solidity
+Functions are an essential part of any programming language for the reusability of a particular code
+pragma solidity >= 0.5.0 < 0.9.0;
+contract local {
+uint age = 10;
+function getter() public view returns(uint) {
+return age;
+}
+function setter() public {
+age = age + 1;
+}
+}
+
+Pure and View in Solidity
+Pure is used where both reading and writing are not performed. 
+Indeed in View, reading is allowed, but writing is not permitted. When we do not define any one of the 
+following to a function, it simply warns that we can provide one restriction of pure or View to function
+
+Constructor in Solidity
+A constructor is a particular type of function which executes only once when you create your contract. 
+Constructor is used to work with state variables and define smart contracts‘ owners. You can create only one 
+constructor, and it is optional to create.The compiler creates a default constructor if there is no explicitly 
+defined constructor.
+pragma solidity >= 0.5.0 < 0.9.0;
+contract local {
+ uint public count;
+ constructor(uint new_count) {
+ count = new_count;
+ } }
+
+
+Control Statements in Solidity
+All programming languages have control statements that help us check multiple conditions using loops and an 
+if-else ladder, and solidity also supports loops and if-else statements.
+Loops in Solidity
+Solidity also supports three loops: a while loop, a Do while loop, and a loop
+pragma solidity >= 0.5.0 < 0.9.0;
+contract Loops {
+ uint [3] public arr;
+ uint public count;
+ function Whileloop() public {
+ while(count < arr.length) {
+ arr[count] = count;
+ count++;
+ } }
+ function Forloop() public {
+ for(uint i=count; i<arr.length; i++) {
+ arr[count] = count;
+ count++;
+ } }
+ function doWhileLoop() public {
+ do {
+ arr[count] = count;
+Department of Computer Engineering, SITS, Narhe LP III Lab Manual
+ count++;
+ }while(count < arr.length);
+ } }
+
+If-else Statements in Solidity
+If-else statements are an essential part of any programming language that helps compare two or more two 
+types of values to make a particular decision
+pragma solidity >= 0.5.0 < 0.9.0;
+contract Array {
+ function check(int a) public pure returns(string memory) {
+ string memory value;
+ if(a > 0) {
+ value = "Greater Than zero";
+ }
+ else if(a == 0) {
+ value = "Equal to zero";
+ }
+ else {
+ value = "Less than zero";
+ }
+ return value;
+ } }
+
+Arrays in Solidity
+The array is a special data structure used to create a list of similar type values. The array can be of fixed size 
+and dynamic-sized. With the help of index elements can be accessed easily
+pragma solidity >= 0.5.0 < 0.9.0;
+contract Array {
+ uint [4] public arr = [10, 20, 30, 40];
+ function setter(uint index, uint value) public {
+ arr[index] = value;
+ }
+ function length() public view returns(uint) {
+ return arr.length;
+Department of Computer Engineering, SITS, Narhe LP III Lab Manual
+ } }
+
+
+Create a Smart Contract with CRUD Functionality
+pragma solidity ^0.5.0;
+contract Crud {
+ struct User {
+ uint id;
+ string name;
+ }
+ User[] public users;
+ uint public nextId = 0;
+ function Create(string memory name) public {
+ users.push(User(nextId, name));
+ nextId++;
+ }
+ function Read(uint id) view public returns(uint, string memory) {
+ for(uint i=0; i<users.length; i++) {
+ if(users[i].id == id) {
+ return(users[i].id, users[i].name);
+ } } }
+ function Update(uint id, string memory name) public {
+Department of Computer Engineering, SITS, Narhe LP III Lab Manual
+ for(uint i=0; i<users.length; i++) {
+ if(users[i].id == id) {
+ users[i].name =name;
+ } } }
+ function Delete(uint id) public {
+ delete users[id];
+ }
+ function find(uint id) view internal returns(uint) {
+ for(uint i=0; i< users.length; i++) {
+ if(users[i].id == id) {
+ return i;
+ } }
+ // if user does not exist then revert back
+ revert("User does not exist");
+ } }

@@ -1,0 +1,69 @@
+Theory:
+Blockchain & Types
+Blockchain technology is being used to carry and transfer the transactions or exchange of information through 
+a secure network. Blockchain technology and distributed ledger technology is used parallel to the digital 
+cryptocurrency to the people. Blockchain is being used for the purpose of private networking and uses too 
+where only the restricted network users can get the authorization and acces
+
+
+1. Public Blockchain is a major type of Blockchain, and that is not only open but also decentralized in 
+nature. And in this type of Blockchain technology computer networks are basically accessible to 
+anyone interested in transactions. Here based on validation the validated person basically receives the 
+transaction rewards and furthermore, two kinds of Proof-of-work and Proof-of-stake models are being 
+used. The Public Blockchain is furthermore a non-restrictive and distributed ledger system which is 
+doesn‘t seek any kind of permission, and anyone having access can be authorized one to get the data 
+or part pf the Blockchain. This kind of Blockchain also gives authorization regarding the current and 
+past records verification. Additionally, this is being used for mining and exchanging cryptocurrencies
+In this segment most common is Bitcoin and Litecoin blockchains. It is mostly secure upon following strict 
+security rules as well as methods. However, upon non-following the security protocols it may be risky. Some 
+of the examples of this type of Blockchain are - Bitcoin, Ethereum, and Litecoin
+Secure and Safe
+Open and Transparent
+Lower Transaction per Second
+High Energy Consumption
+
+
+2. Private blockchains
+Private Block Chain are restricted and not open, such kind of blockchain also has features of access. This 
+blockchain allows permission for the transaction from the support of the system administrator
+Private blockchain solutions develop these platforms having the features of the following—
+ˆ ˆ Full of privacy,
+ˆ ˆ High efficiency,
+ˆ ˆ Faster transaction,
+ˆ ˆ Better scalability,
+ˆ ˆ Faster and speediness.
+
+
+3. Hybrid Blockchains is a merger of public blockchain as well as private blockchain and it is required in 
+better control for achieving higher goals. Hybrid Blockchain deals with centralized and decentralized systems 
+and it is not open; however, it has the features of integrity, transparency, as well as security. It has several 
+advantages over traditional blockchains as depicted in Fig. 5. In Hybrid Blockchains maximum customization 
+is being considered as main benefits with private permission-based system as well as a public permission-less 
+system. In this type of blockchain systems users are able in getting access and selected sections and rest can 
+be recorded or keeps safe due to the benefits of the records from the ledger. Hybrid Blockchains is flexible 
+enough so that users can join easily as private blockchain. This type of blockchain is able in enhancing the 
+security and transparency of the blockchain network‘
+
+4. Consortium Blockchain is another type of semi-decentralized type of blockchain, and this type of 
+blockchain is able in the organization of managing the blockchain network. This type of blockchain is able in 
+doing activities even from a single organization. Here blockchain is able in exchange information or do the 
+mining and are being used in the areas such as banks, government organizations, etc. Some of the examples of 
+this type of consortium are Energy Web Foundation, R3, etc.
+
+Top blockchain use cases
+
+Smart contracts. The primary function of computer programs called "smart contracts" is to automate the 
+execution of contract terms when conditions warrant them
+
+Cybersecurity. Blockchains are highly secure because of their permanency, transparency and distributed 
+nature
+
+IoT. Two primary IoT uses of blockchains are in the supply chain sector and for asset tracking and 
+inventory management.
+
+Cryptocurrencies. The blockchain concept was originally developed to manage digital currencies such as 
+bitcoin. While the two technologies still compete against each other in alternative transactions, they've 
+also been separated so blockchains could serve other purposes
+
+5. NFTs. Nonfungible tokens are units of data certified to be unique and not interchangeable. In short, they 
+are digital assets

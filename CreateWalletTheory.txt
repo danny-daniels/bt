@@ -1,0 +1,35 @@
+Theory:-
+A Brief introduction to MetaMask
+MetaMask is an open-source, straightforward, and easy-to-use cryptocurrency wallet. It functions as a web 
+browser extension available for Chrome, Firefox, Brave, or a mobile application for iOS or Android. Initially, 
+this wallet supported only Ether and ERC-20 tokens, and now it is compatible with ERC-721 and ERC-1155 
+token standards. Furthermore, MetaMask benefits include interaction with websites; hence, it can function as 
+a connection node for various DApps on Ethereum
+
+How does the MetaMask wallet function?
+As we mentioned above, the MetaMask cryptocurrency wallet employs the web3.js library to function. This 
+library is a part of the official Ethereum product. The library was developed focusing on the requirements of 
+web applications that could interact with the Ethereum blockchain and take advantage of all blockchain‘s 
+benefits and functions. MetaMask is a cryptocurrency wallet for Ethereum and an instrument that helps to 
+interact with DApps. MetaMask connects the extension to the DApp so that to fulfill both tasks. When the 
+application identifies the MetaMask, it creates a connection, and the user can start using all the features of a 
+specific application
+
+Extended functions set for MetaMask clone
+To help your MetaMask wallet clone become famous, you should add some advantages that highlight it from 
+the competitors and improve the user experience. 
+These can be the following:
+Linking an account. Your users will find it useful to be able to buy a cryptocurrency and exchange it for fiat 
+within the wallet. This will be possible if you develop a wallet like MetaMask and add the feature of linking 
+bank accounts, credit/debit cards, PayPal, or other online payment systems.
+eCommerce integrations. We mean integrating the wallet with exchanges, NFT marketplaces, decentralized 
+applications, shops, and other services that the users might find useful.
+Multilingual interface. If you focus on a market where all people speak the same language, you might 
+neglect this aspect. However, your intentions are global, and you should add as many languages as possible to 
+increase the target audience.
+Push notifications. The notifications will inform the users of receiving payments, ending transactions, rapid 
+exchange rate changes in the investment account, system updates, suspicious activity, etc.
+VIP support. Numerous cryptocurrency trading platforms offer support for an additional fee. This may 
+include 24/7 support, communication with a personal specialist, etc.
+QR scanner. This is another useful feature that allows your users to make payments even faster. Moreover, it 
+will decrease the number of transfers done by mistake
